@@ -1,0 +1,92 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/6b/ce/07/6bce07b14cc75a293cda18ae288bf573.jpg);
+    background-repeat:no repeat;
+    background-size:cover ;
+}
+.form{
+    width: 400px;
+    margin: 90px auto;
+    border: 2px solid rgb(105, 105, 105);
+    border-radius:20px ;
+    background-color: rgba(255, 255, 255, 0.016);
+    padding:50px;
+}
+.login-text{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.sub-title{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.label-input{
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    border-radius: 20px;
+    
+}
+.input-form{
+    width: 98%;
+    padding:10px;
+    border: none;
+    box-shadow: inset;
+    border-radius: 20px;
+    background-color: azure;
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+}
+.input-form::placeholder{
+    color: rgb(216, 228, 228);
+    font-style: italic;
+}
+.button{
+    border-radius: 10px;
+}
+.class{
+    text-align: center;
+}
+.or{
+    text-align: center;
+    color: rgb(0, 7, 13);
+}
+
+.google-btn{
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 5px;
+    width: 101%;
+    border-radius: 30px;
+    border: none;
+    background-color: azure;
+}
+.google-logo{
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.google-btn span{
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+}
+.btn-login{
+    background-color: rgb(7, 249, 43);
+    width: 101%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+}
+.btn-login:hover{
+    background-color: blue;
+    color: aliceblue;
+}
